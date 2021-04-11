@@ -2,14 +2,17 @@ package com.tenax.entity;
 
 import java.util.Date;
 
+
 public class Person {
 
-    String firstName;
-    String Surname;
-    String middleName;
-    Date birthday;
-    Date dayOfDeath;
-    String Description;
-
+    private String id;
+    private String firstName;
+    private String Surname;
+    private String middleName;
+    private Date birthday;
+    private Date dayOfDeath;
+    private String Description;
+    private String generation;
+    private Relation parrentRelation;
 
 }
